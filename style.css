@@ -62,7 +62,7 @@ nav a:hover{
 
 .hero-unificado {
     
-    background-image: linear-gradient(rgba(13, 13, 17, 0.7), rgba(13, 13, 17, 0.85)), url('/imagens/HOME/BANNERHOME.png');
+    background-image: linear-gradient(rgba(13, 13, 17, 0.7), rgba(13, 13, 17, 0.85)), url('./imagens/HOME/BANNERHOME.png');
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
