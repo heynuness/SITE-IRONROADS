@@ -71,7 +71,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERBMW.png');
+        url('./imagens/BANNERS/BANNERBMW.png');
 
     background-size: cover;
     background-position: center;
@@ -97,7 +97,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERAUDI.png');
+        url('./imagens/BANNERS/BANNERAUDI.png');
 
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERCHIRON.png');
+        url('./imagens/BANNERS/BANNERCHIRON.png');
 
     background-size: cover;
     background-position: center;
@@ -149,7 +149,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERDIVO.png');
+        url('./imagens/BANNERS/BANNERDIVO.png');
 
     background-size: cover;
     background-position: center;
@@ -175,7 +175,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERDODGE.png');
+        url('./imagens/BANNERS/BANNERDODGE.png');
 
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERFERRARI.png');
+        url('./imagens/BANNERS/BANNERFERRARI.png');
 
     background-size: cover;
     background-position: center;
@@ -227,7 +227,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERJESKO.png');
+        url('./imagens/BANNERS/BANNERJESKO.png');
 
     background-size: cover;
     background-position: center;
@@ -253,7 +253,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERAMG.png');
+        url('./imagens/BANNERS/BANNERAMG.png');
 
     background-size: cover;
     background-position: center;
@@ -279,7 +279,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERPORSCHE.png');
+        url('./imagens/BANNERS/BANNERPORSCHE.png');
 
     background-size: cover;
     background-position: center;
@@ -305,7 +305,7 @@ nav a:hover{
             rgba(7, 7, 7, 0.35) 65%,
             rgba(7, 7, 7, 0.85) 100%
         ),
-        url('/imagens/BANNERS/BANNERREVUELTO.png');
+        url('./imagens/BANNERS/BANNERREVUELTO.png');
 
     background-size: cover;
     background-position: center;
