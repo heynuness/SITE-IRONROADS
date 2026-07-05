@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="galeria.css">
+    <script src="script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- PARTE INICIAL CABECARIO -->
+
+<header id="top">
+    <a href="index.html" class="logo">
+        IRON<span>ROADS</span>
+    </a>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-btn">☰</label>
+
+    <label for="menu-toggle" class="fundo-menu"></label>
+
+    <nav class="menu-lateral">
+        <label for="menu-toggle" class="fechar-menu">×</label>
+
+        <a href="index.html">INÍCIO</a>
+        <a href="index.html#carros">CARROS</a>
+        <a href="galeria.html">GALERIA</a>
+        <a href="contatenos.html">CONTATE-NOS</a>
+
+        <button class="btn-menu">COMPRAR</button>
+    </nav>
+</header>
+
+<!-- PARTE DAS FOTOS -->
+
+    <main>
+
+        <section class="galeria-slider">
+
+            <div class="galeria-header">
+                <div>
+                    <h1>GALERIA IRONROADS</h1>
+                    <p>Imagens dos carros mais desejados do site</p>
+                </div>
+            </div>
+
+            <div class="slider-area">
+
+                <button class="btn-slide btn-voltar" id="btnVoltar">
+                    &#10094;
+                </button>
+
+                <div class="imagem-central">
+                    <img id="imagemPrincipal" src="/imagens/BANNERS/BANNERBMW.png" alt="BMW M3">
+
+                    <div class="info-imagem">
+                        <span id="categoriaImagem">BMW M3</span>
+                        <h2 id="tituloImagem">BMW M3</h2>
+                    </div>
+                </div>
+
+                <button class="btn-slide btn-proximo" id="btnProximo">
+                    &#10095;
+                </button>
+
+                <div class="miniaturas-flutuantes">
+
+                    <button class="miniatura ativa"
+                        data-img="/imagens/BANNERS/BANNERBMW.png"
+                        data-titulo="BMW M3"
+                        data-categoria="BMW M3">
+                        <img src="/imagens/BANNERS/BANNERBMW.png" alt="BMW M3">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERAMG.png"
+                        data-titulo="Mercedes-AMG GT"
+                        data-categoria="Mercedes">
+                        <img src="/imagens/BANNERS/BANNERAMG.png" alt="Mercedes AMG GT">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERAUDI.png"
+                        data-titulo="Audi RS7"
+                        data-categoria="Audi">
+                        <img src="/imagens/BANNERS/BANNERAUDI.png" alt="Audi RS7">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERJESKO.png"
+                        data-titulo="Koenigsegg Jesko"
+                        data-categoria="Koenigsegg">
+                        <img src="/imagens/BANNERS/BANNERJESKO.png" alt="Koenigsegg Jesko">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERDIVO.png"
+                        data-titulo="Bugatti Divo"
+                        data-categoria="Bugatti">
+                        <img src="/imagens/BANNERS/BANNERDIVO.png" alt="Bugatti Divo">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERCHIRON.png"
+                        data-titulo="Bugatti Chiron"
+                        data-categoria="Bugatti">
+                        <img src="/imagens/BANNERS/BANNERCHIRON.png" alt="Bugatti Chiron">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERREVUELTO.png"
+                        data-titulo="Lamborghini Revuelto"
+                        data-categoria="Lamborghini">
+                        <img src="/imagens/BANNERS/BANNERREVUELTO.png" alt="Lamborghini Revuelto">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERFERRARI.png"
+                        data-titulo="Ferrari 488 Pista"
+                        data-categoria="Ferrari">
+                        <img src="/imagens/BANNERS/BANNERFERRARI.png" alt="Ferrari 488 Pista">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERDODGE.png"
+                        data-titulo="Dodge Charger SRT"
+                        data-categoria="Dodge">
+                        <img src="/imagens/BANNERS/BANNERDODGE.png" alt="Dodge Charger SRT">
+                    </button>
+
+                    <button class="miniatura"
+                        data-img="/imagens/BANNERS/BANNERPORSCHE.png"
+                        data-titulo="Porsche GT3 RS"
+                        data-categoria="Porsche">
+                        <img src="/imagens/BANNERS/BANNERPORSCHE.png" alt="Porsche GT3 RS">
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+<!-- PARTE FINAL RODAPE -->
+
+<footer class="rodape">
+
+    <div class="rodape-container" ID="contato">
+
+        <div class="rodape-logo">
+            <h2>IRON<span>ROADS</span></h2>
+            <p>
+                Informações, análises e detalhes dos carros mais desejados do mundo.
+            </p>
+        </div>
+
+        <div class="rodape-links">
+            <h3>Navegação</h3>
+
+            <a href="#">Início</a>
+            <a href="#">Avaliações</a>
+            <a href="#">Comparativos</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre</a>
+        </div>
+
+        <div class="rodape-carros">
+            <h3>Carros</h3>
+
+            <a href="bmw.html">BMW M3</a>
+            <a href="audi.html">Audi RS7</a>
+            <a href="mercedes.html">Mercedes AMG GT</a>
+            <a href="bugattichiron.html">Bugatti Chiron</a>
+            <a href="ferrari.html">Ferrari 488 Pista</a>
+        </div>
+
+        <div class="rodape-contato">
+            <h3>Contato</h3>
+
+            <p>Email: contato@ironroads.com</p>
+            <p>Instagram: @IRONROADS</p>
+            <p>Brasil</p>
+        </div>
+
+    </div>
+
+    <div class="rodape-bottom">
+        <p>
+            © 2026 IronRoads. Todos os direitos reservados.
+        </p>
+    </div>
+
+</footer>
+
+</body>
+
+</html>

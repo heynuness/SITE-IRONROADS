@@ -1,0 +1,918 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#070707;
+    color:#fff;
+    font-family:'Montserrat',sans-serif;
+}
+
+/* HEADER e Menu de navegação */
+
+header{
+    height:90px;
+    padding:0 80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid rgba(255,255,255,.05);
+    position:relative;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    text-decoration: none;
+    cursor:pointer;
+    display:inline-block;
+    color:#fff;
+    z-index:2;
+}
+
+.logo span{
+    color:#d71920;
+}
+
+nav{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:45px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#fff;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d71920;
+} 
+
+/* HERO DOS CARROS EM TELA CHEIA */
+
+.hero-BMW{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERBMW.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-AUDI{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERAUDI.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-CHIRON{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERCHIRON.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-DIVO{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERDIVO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-DODGE{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERDODGE.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-FERRARI{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERFERRARI.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-JESKO{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERJESKO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-AMG{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERAMG.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-PORSCHE{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERPORSCHE.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.hero-REVUELTO{
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(7, 7, 7, 0.95) 0%,
+            rgba(7, 7, 7, 0.75) 35%,
+            rgba(7, 7, 7, 0.35) 65%,
+            rgba(7, 7, 7, 0.85) 100%
+        ),
+        url('/imagens/BANNERS/BANNERREVUELTO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: calc(100vh - 90px);
+    padding: 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* INFORMAÇÕES DO CARRO */
+
+.hero-info{
+    max-width: 520px;
+    z-index: 2;
+}
+
+.categoria{
+    color:#d71920;
+    font-size:14px;
+    font-weight:800;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.hero-info h1{
+    font-size:95px;
+    font-weight:800;
+    line-height:.9;
+    margin-top:15px;
+    color:#fff;
+}
+
+.hero-info h2{
+    color:rgba(255,255,255,.45);
+    font-size:52px;
+    font-weight:800;
+    margin-bottom:25px;
+}
+
+.hero-info p{
+    color:#e0e0e0;
+    font-size:17px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-info button{
+    background:#d71920;
+    color:white;
+    border:none;
+    padding:16px 32px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:700;
+    letter-spacing:.5px;
+    transition:.3s;
+}
+
+.hero-info button:hover{
+    background:#ff2028;
+    transform:translateY(-3px);
+}
+
+/* REMOVE A IMAGEM SOLTA DO CARRO, POIS AGORA ELA FICA NO FUNDO */
+
+.hero-carro{
+    display:none;
+}
+
+/* ESPECIFICAÇÕES DENTRO DO HERO */
+
+.specs{
+    position:absolute;
+    left:80px;
+    right:80px;
+    bottom:35px;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+    padding-top:25px;
+    border-top:1px solid rgba(255,255,255,.12);
+
+    z-index:2;
+}
+
+.spec{
+    padding:10px 0;
+}
+
+.spec h3{
+    color:#888;
+    font-size:13px;
+    text-transform:uppercase;
+    margin-bottom:8px;
+    letter-spacing:.8px;
+}
+
+.spec p{
+    font-size:17px;
+    color:#fff;
+    line-height:1.5;
+}
+
+.spec span{
+    color:#fff;
+    font-weight:700;
+}
+
+/* CONTEÚDO */
+
+.conteudo{
+    display:grid;
+    grid-template-columns:250px 1fr 700px;
+    gap:40px;
+
+    padding:50px 80px;
+}
+
+/* MENU LATERAL */
+
+aside{
+    background:#101010;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+aside ul{
+    list-style:none;
+}
+
+aside li{
+    padding:20px;
+    border-bottom:1px solid rgba(255,255,255,.05);
+    cursor:pointer;
+    transition:.3s;
+}
+
+aside li:hover{
+    background:#181818;
+    border-left:4px solid #d71920;
+}
+
+/* DESCRIÇÃO */
+
+.descricao span{
+    color:#d71920;
+    font-size:14px;
+    font-weight:700;
+}
+
+.descricao h2{
+    margin-top:10px;
+    font-size:55px;
+    margin-bottom:25px;
+}
+
+.descricao p{
+    color:#c8c8c8;
+    line-height:1.9;
+    margin-bottom:30px;
+}
+
+.descricao button{
+    background:transparent;
+    border:1px solid rgba(255,255,255,.2);
+    color:white;
+    padding:15px 25px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* GALERIA */
+
+.galeria{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:12px;
+}
+
+.galeria img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.galeria img:first-child{
+    grid-row:span 2;
+}
+
+/* ESTATÍSTICAS */
+
+.estatisticas{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    padding:50px 80px;
+}
+
+.estatisticas div{
+    background-color: #111;
+    border: 2px solid #FF0000;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+
+    padding:35px;
+    border-radius:10px;
+}
+
+.estatisticas h2{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.estatisticas p{
+    color:#9f9f9f;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:1400px){
+
+    .conteudo{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-carro{
+        margin-top:40px;
+    }
+
+}
+
+@media(max-width:900px){
+
+    header{
+        padding:20px;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .hero{
+        padding:30px;
+    }
+
+    .hero-info h1{
+        font-size:60px;
+    }
+
+    .specs{
+        grid-template-columns:1fr;
+        padding:30px;
+    }
+
+    .estatisticas{
+        grid-template-columns:1fr;
+        padding:30px;
+    }
+
+    .conteudo{
+        padding:30px;
+    }
+
+}
+
+/* JAVASCRIPT - MENU DE CARROS */
+
+.menu-carros{
+    position:absolute;
+    top:70px;
+    background:#090909;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:10px;
+    padding:15px;
+    display:none;
+    flex-direction:column;
+    gap:10px;
+    z-index:999;
+}
+
+.menu-carros.ativo{
+    display:flex;
+}
+
+.menu-carros a{
+    color:#fff;
+    text-decoration:none;
+    padding:10px 15px;
+    background:#111;
+    border-radius:6px;
+    transition:.3s;
+}
+
+.menu-carros a:hover{
+    background:#d71920;
+}
+
+/* LIGHTBOX DA GALERIA */
+
+.galeria img{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.03);
+    filter:brightness(1.15);
+}
+
+.lightbox{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.9);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:9999;
+}
+
+.lightbox img{
+    max-width:90%;
+    max-height:85%;
+    border-radius:10px;
+}
+
+.fechar-lightbox{
+    position:absolute;
+    top:25px;
+    right:35px;
+    background:#d71920;
+    border:none;
+    color:#fff;
+    font-size:32px;
+    width:50px;
+    height:50px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* MENU LATERAL ATIVO */
+
+aside li.ativo{
+    background:#181818;
+    border-left:4px solid #d71920;
+}
+/* RODAPÉ */
+
+.rodape{
+    background:#050505;
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:60px 80px 25px;
+    margin-top:80px;
+}
+
+.rodape-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1.5fr;
+    gap:40px;
+}
+
+.rodape-logo h2{
+    font-size:30px;
+    font-weight:800;
+    color:#fff;
+    margin-bottom:18px;
+}
+
+.rodape-logo span{
+    color:#d71920;
+}
+
+.rodape-logo p{
+    color:#aaa;
+    line-height:1.8;
+    max-width:380px;
+}
+
+.rodape h3{
+    color:#fff;
+    font-size:18px;
+    margin-bottom:20px;
+    position:relative;
+}
+
+.rodape h3::after{
+    content:"";
+    width:35px;
+    height:3px;
+    background:#d71920;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    border-radius:10px;
+}
+
+.rodape-links,
+.rodape-carros,
+.rodape-contato{
+    display:flex;
+    flex-direction:column;
+}
+
+.rodape a{
+    color:#aaa;
+    text-decoration:none;
+    margin-bottom:12px;
+    font-size:15px;
+    transition:.3s;
+}
+
+.rodape a:hover{
+    color:#d71920;
+    padding-left:5px;
+}
+
+.rodape-contato p{
+    color:#aaa;
+    margin-bottom:12px;
+    font-size:15px;
+}
+
+.rodape-bottom{
+    border-top:1px solid rgba(255,255,255,.08);
+    margin-top:45px;
+    padding-top:25px;
+    text-align:center;
+}
+
+.rodape-bottom p{
+    color:#777;
+    font-size:14px;
+}
+
+/* RESPONSIVO PÁGINAS DOS CARROS */
+
+@media (max-width: 900px) {
+
+    .hero-BMW,
+    .hero-AUDI,
+    .hero-CHIRON,
+    .hero-DIVO,
+    .hero-DODGE,
+    .hero-FERRARI,
+    .hero-JESKO,
+    .hero-AMG,
+    .hero-PORSCHE,
+    .hero-REVUELTO {
+        min-height: 85vh;
+        padding: 80px 25px 50px;
+        background-position: center;
+    }
+
+    .hero-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-info h1 {
+        font-size: 44px;
+        line-height: 1;
+        word-break: normal;
+    }
+
+    .hero-info h2 {
+        font-size: 30px;
+    }
+
+    .hero-info p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-info button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .specs {
+        position: static;
+        grid-template-columns: 1fr;
+        padding: 30px 25px;
+        gap: 18px;
+    }
+
+    .conteudo {
+        grid-template-columns: 1fr;
+        padding: 35px 25px;
+        gap: 30px;
+    }
+
+    aside ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    aside li {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .descricao h2 {
+        font-size: 34px;
+    }
+
+    .descricao p {
+        font-size: 15px;
+    }
+
+    .descricao button {
+        width: 100%;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .estatisticas {
+        grid-template-columns: 1fr;
+        padding: 35px 25px;
+    }
+
+    .estatisticas h2 {
+        font-size: 38px;
+    }
+}
+
+/* CORRIGIR RODAPÉ NO CELULAR */
+
+@media (max-width: 768px) {
+
+    .rodape {
+        width: 100%;
+        padding: 45px 22px 25px;
+        overflow: hidden;
+    }
+
+    .rodape-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .rodape-logo,
+    .rodape-links,
+    .rodape-carros,
+    .rodape-contato {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .rodape-logo h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .rodape-logo p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .rodape h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .rodape a,
+    .rodape p {
+        font-size: 15px;
+        line-height: 1.7;
+        word-break: normal;
+    }
+
+    .rodape-bottom {
+        width: 100%;
+        margin-top: 35px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .rodape-bottom p {
+        font-size: 13px;
+    }
+}

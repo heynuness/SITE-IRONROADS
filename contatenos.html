@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATE NOS</title>
+</head>
+<body>
+
+    <!-- TITULO -->
+
+    <header>
+
+        <a href="index.html" class="logo">
+            IRON<span>ROADS</span>
+        </a>
+
+    </header>
+
+    <!-- FORMULÁRIO DE CONTATO -->
+
+<section class="contato-section" id="contato">
+    <div class="contato-container">
+
+        <div class="contato-info">
+            <span>FALE CONOSCO</span>
+            <h2>Entre em contato com a IRONROADS</h2>
+            <p>
+                Tem alguma sugestão de carro, dúvida sobre o site ou quer enviar uma mensagem?
+                Preencha o formulário abaixo.
+            </p>
+        </div>
+
+        <form class="form-contato" id="formContato"action=" https://formsubmit.co/ironroadss@gmail.com" method="POST">
+
+            <input type="hidden" name="_subject" value="Nova mensagem recebida pelo site IRONROADS">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="Nome" placeholder="Digite seu nome">
+                <small class="mensagem-erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="Email" placeholder="Digite seu e-mail">
+                <small class="mensagem-erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="Telefone" placeholder="Ex: (87) 99999-9999">
+                <small class="mensagem-erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="Assunto">
+                    <option value="">Selecione uma opção</option>
+                    <option value="Dúvida">Dúvida</option>
+                    <option value="Sugestão de carro">Sugestão de carro</option>
+                    <option value="Erro no site">Erro no site</option>
+                    <option value="Outro assunto">Outro assunto</option>
+                </select>
+                <small class="mensagem-erro"></small>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="Mensagem" placeholder="Digite sua mensagem"></textarea>
+                <small class="mensagem-erro"></small>
+            </div>
+
+            <button type="submit" class="btn-enviar">
+                ENVIAR MENSAGEM
+            </button>
+
+            <p class="mensagem-sucesso" id="mensagemSucesso"></p>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- PARTE FINAL RODAPE -->
+
+<footer class="rodape">
+
+    <div class="rodape-container" ID="contato">
+
+        <div class="rodape-logo">
+            <h2>IRON<span>ROADS</span></h2>
+            <p>
+                Informações, análises e detalhes dos carros mais desejados do mundo.
+            </p>
+        </div>
+
+        <div class="rodape-links">
+            <h3>Navegação</h3>
+
+            <a href="#">Início</a>
+            <a href="#">Avaliações</a>
+            <a href="#">Comparativos</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre</a>
+        </div>
+
+        <div class="rodape-carros">
+            <h3>Carros</h3>
+
+            <a href="bmw.html">BMW M3</a>
+            <a href="audi.html">Audi RS7</a>
+            <a href="mercedes.html">Mercedes AMG GT</a>
+            <a href="bugattichiron.html">Bugatti Chiron</a>
+            <a href="ferrari.html">Ferrari 488 Pista</a>
+        </div>
+
+        <div class="rodape-contato">
+            <h3>Contato</h3>
+
+            <p>Email: contato@ironroads.com</p>
+            <p>Instagram: @IRONROADS</p>
+            <p>Brasil</p>
+        </div>
+
+    </div>
+
+    <div class="rodape-bottom">
+        <p>
+            © 2026 IronRoads. Todos os direitos reservados.
+        </p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+
